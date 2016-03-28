@@ -33,4 +33,8 @@ class WelcomeController extends Controller {
 		return 222;
 	}
 
+	public function json(){
+		return response()->json(['ok'=>'not_ok']);
+	}
+
 }
